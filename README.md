@@ -3,8 +3,12 @@
 <div align="center">
 
 
-Towards Open-Set Surgical Activity Recognition in Robot-assisted Surgery
+<samp>
 
+<h2> Towards Open-Set Surgical Activity Recognition in Robot-assisted Surgery </h1>
+
+</samp>   
+    
 </div>     
 
 
