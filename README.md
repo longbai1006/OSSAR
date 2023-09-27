@@ -19,7 +19,12 @@ In the realm of automated robotic surgery and computer-assisted interventions, u
 
 ---
 ## Environment
+
+    ```bash
     conda env create -f environment.yml -n new_env_name
+    ```
+
+
 ---
 ## Datasets and Setup (Will release upon acceptance)
 1. JISAWS Dataset (Needle Passing, Knot Tying, Suturing)
