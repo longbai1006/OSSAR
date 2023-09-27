@@ -7,8 +7,6 @@
 <h2> Towards Open-Set Surgical Activity Recognition in Robot-assisted Surgery </h1>
 
 </samp>   
-    
----
 
 </div>     
 
