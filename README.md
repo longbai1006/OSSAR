@@ -19,11 +19,7 @@ In the realm of automated robotic surgery and computer-assisted interventions, u
 
 ---
 ## Environment
-
-    ```bash
     conda env create -f environment.yml -n new_env_name
-    ```
-
 
 ---
 ## Datasets and Setup (Will release upon acceptance)
@@ -42,6 +38,6 @@ In the realm of automated robotic surgery and computer-assisted interventions, u
 ---
 
 ## Acknowledgement
-Baseline code from the [OpenOOD](https://github.com/Jingkang50/OpenOOD) librarylease consider citing our paper:
+Baseline code from the [OpenOOD](https://github.com/Jingkang50/OpenOOD) library.
 
 ---
