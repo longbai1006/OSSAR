@@ -9,8 +9,8 @@
 </samp>   
     
 
-</div>     
 
+</div>     
 
 
 ## Abstract
@@ -25,22 +25,20 @@ In the realm of automated robotic surgery and computer-assisted interventions, u
 ---
 ## Datasets and Setup (Will release upon acceptance)
 1. JISAWS Dataset (Needle Passing, Knot Tying, Suturing)
-    - [Official](https://drive.google.com/file/d/1m7CSNY9PcUoCAUO_DoppDCi_l2L2RiFN/view?usp=sharing)
+    - [Official](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/)
 2. DREAMS Dataset
     - [Official]()
 ---
 
 ### Run training
-- Train on EndoVis-18-VLQA 
+- OSR training on surgical activity recognition. For cross validation, you just need to modified the dir in the [dataset].yml. The training log shall be in './results'.
     ```bash
     bash scripts/osr/ossar/ossar_train_ossar.sh
     ```
-The training log shall be in './results'.
+
 ---
 
 ## Acknowledgement
 Baseline code from the [OpenOOD](https://github.com/Jingkang50/OpenOOD) librarylease consider citing our paper:
 
 ---
-
-.
