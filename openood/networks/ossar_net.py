@@ -642,6 +642,18 @@ class Dist(nn.Module):
             dist = dist / float(features.shape[1])
         elif metric == 'cos':
             dist = torch.mm(features, center.t().contiguous()) * (torch.ones(1) * 1.004).to(features.device)
+        elif metric == 'mahalanobis':
+            if center is None:
+                center = self.centers
+            diff = features - center
+            # 计算协方差矩阵的逆。这里假设 self.inv_covariance_matrix 已经被计算好了。
+            # 如果协方差矩阵对每个类别都不同，你需要选择正确的逆矩阵来与特征对应的中心相匹配。
+            inv_covariance_matrix = self.inv_covariance_matrix  # 需要预先定义和计算
+            # 转置 diff 向量以匹配 inv_covariance_matrix 的形状要求
+            diff_transpose = torch.transpose(diff, 1, 2)
+            temp = torch.matmul(inv_covariance_matrix, diff_transpose)
+            # 计算马哈拉诺比斯距离
+            dist = torch.sum(torch.transpose(temp, 1, 2) * diff, dim=-1)
         else:
             if center is None:
                 center = self.centers
