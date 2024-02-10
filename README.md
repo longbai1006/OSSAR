@@ -22,11 +22,9 @@ In the realm of automated robotic surgery and computer-assisted interventions, u
     conda env create -f environment.yml -n new_env_name
 
 ---
-## Datasets and Setup (Will release upon acceptance)
-1. JISAWS Dataset (Needle Passing, Knot Tying, Suturing)
+## Dataset
+JISAWS Dataset (Needle Passing, Knot Tying, Suturing)
     - [Official](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/)
-2. DREAMS Dataset
-    - [Official]()
 ---
 
 ### Run training
