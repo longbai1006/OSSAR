@@ -8,7 +8,7 @@
 
 <h4> Long Bai*, Guankun Wang*, Jie Wang, Xiaoxiao Yang, Huxin Gao, Xin Liang, An Wang, Mobarakol Islam, Hongliang Ren </h3>
 
-<h2> IEEE International Conference on Robotics and Automation (ICRA) 2024 </h1>
+<h3> IEEE International Conference on Robotics and Automation (ICRA) 2024 </h2>
 
 </samp>   
 
