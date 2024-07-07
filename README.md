@@ -4,13 +4,33 @@
 
 <samp>
 
-<h2> Towards Open-Set Surgical Activity Recognition in Robot-assisted Surgery </h1>
+<h2> OSSAR: Towards Open-Set Surgical Activity Recognition in Robot-assisted Surgery </h1>
+
+<h4> Long Bai*, Guankun Wang*, Jie Wang, Xiaoxiao Yang, Huxin Gao, Xin Liang, An Wang, Mobarakol Islam, Hongliang Ren </h3>
+
+<h2> IEEE International Conference on Robotics and Automation (ICRA) 2024 </h1>
 
 </samp>   
-    
 
+| **[[```arXiv```](<https://arxiv.org/abs/2402.06985>)]** |
+|:-------------------:|:-------------------:|
+    
+---
 
 </div>     
+
+
+
+If you find our code or paper useful, please cite the paper as
+
+```bibtex
+@article{bai2024ossar,
+  title={OSSAR: Towards Open-Set Surgical Activity Recognition in Robot-assisted Surgery},
+  author={Bai, Long and Wang, Guankun and Wang, Jie and Yang, Xiaoxiao and Gao, Huxin and Liang, Xin and Wang, An and Islam, Mobarakol and Ren, Hongliang},
+  journal={arXiv preprint arXiv:2402.06985},
+  year={2024}
+}
+```
 
 
 ## Abstract
