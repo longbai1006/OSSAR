@@ -1,5 +1,3 @@
-
-
 <div align="center">
 
 <samp>
@@ -19,8 +17,6 @@
 
 </div>     
 
-
-
 If you find our code or paper useful, please cite the paper as
 
 ```bibtex
@@ -31,6 +27,7 @@ If you find our code or paper useful, please cite the paper as
   year={2024}
 }
 ```
+
 ---
 
 ## Abstract
